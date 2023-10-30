@@ -4,3 +4,37 @@
     box-sizing: border-box;
 
 }
+
+
+/*************************************/
+/*           Versión móvilºº        */
+
+/* Utiliza media queries para distribuir de modo diferente el diseño (Cuando baje el ancho de la web*/
+/* de 768px). Quedaría de la siguiente forma:*/
+/*            En el header se posicionan uno debajo del otro.*/
+/*            En main también se posicionarán uno debajo del otro.*/
+/*            El comportamiento de servicios y el footer es el mismo.*/
+
+@media (max-width: 767px) {
+
+}
+
+
+
+
+
+
+
+/*************************************/
+/*         Versión escritorio       */
+/* El body tiene un degradado. Oscila entre los colores: #ff5e62, #ff9966 (Recuerda indicarle un fondo*/
+/* para navegadores antiguos).*/
+/* La capa contenedor es la que aparece de fondo y tendrá un ancho máximo de 1000px.*/
+/* Header. A la izquierda un h1 con el nombre del sitio y a la derecha un menú con los enlaces que aparecen en la imagen.*/
+/* Utiliza main para agrupar servicios y aside (Blog y entradas). Los servicios ocuparan un 60% del ancho y el blog el resto (No podrás indicarlo con un porcentaje).*/
+/* Los servicios ocupan todo el espacio. El título del blog estará centrado y las entradas a la izquierda.*/
+/* Para el footer también tiene que centrarse el contenido con flex.*/
+
+@media (min-width: 767px) {
+
+}
